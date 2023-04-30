@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
-function Home() {
+function Home() { 
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -21,8 +21,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                I'm
+                <strong className="main-name"> Jack Wilson </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
