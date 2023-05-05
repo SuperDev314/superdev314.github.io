@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.17",
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -14,7 +16,7 @@
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
     "react-github-calendar": "^3.2.2",
-    "react-icons": "^4.3.1",
+    "react-icons": "^4.8.0",
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
     "react-router-dom": "^6.2.2",
@@ -49,5 +51,8 @@
       "last 1 safari version"
     ],
     "homepage": "https://[SuperDev314].github.io/[superdev314]"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }

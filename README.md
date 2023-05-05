@@ -1,5 +1,8 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Hello. Welcome To My GITHUB Projects.<br/>
+  I'm a full stack developer with 9 years of experience, specializing in web and mobile application development.
+  I'm passionate about building beautiful and user-friendly applications using cutting-edge technologies.
+  I'm interested in Decentralized Applications.
 </h2>
 
 ## Features

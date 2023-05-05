@@ -8,11 +8,16 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiHtml5,
+  DiCss3Full,
 } from "react-icons/di";
 import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiTailwindcss,
+  SiSass,
+  SiTypescript,
 } from "react-icons/si";
 
 function Techstack() {
@@ -20,6 +25,21 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3Full />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSass />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />

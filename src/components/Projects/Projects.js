@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import game from "../../Assets/Projects/game.png";
+import arcteryx from "../../Assets/Projects/arcteryx.png";
+import retromagaz from "../../Assets/Projects/retromagaz.png";
+import markup from "../../Assets/Projects/markup.png";
+import jennywulac from "../../Assets/Projects/jennywulac.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,12 +23,14 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={markup}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Best Gaming"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends 
+                build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, 
+                image sharing as well as supports reactions on messages."
+              ghLink="https://github.com/SuperDev314"
+              demoLink="https://buildredux.com/"
             />
           </Col>
 
@@ -37,54 +39,60 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              description="My personal blog page build with Next.js and Tailwind Css which takes the content 
+                from makdown files and renders it using Next.js. Supports dark mode and easy to write 
+                blogs using markdown."
+              ghLink="https://github.com/SuperDev314"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={retromagaz}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Game Consoles"
+              description="Using Laravel, I designed this site to be responsive and optimized for a variety of devices including desktops, tablets and phones.
+                In addition, in terms of design and functionality, it is configured to be efficient and user-friendly, optimized for the community.
+                That's why this site is very popular, especially among children."
+              ghLink="https://github.com/SuperDev314"
+              demoLink="https://retromagaz.com/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={game}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Hype Game"
+              description="Hype games is a website that uses AngularJS as its front-end development framework. It is designed to showcase new and upcoming games across various platforms. As Hype.games is a website that showcases a large amount of data and multimedia content, I used AngularJS to easily organize and manage this content in a scalable way."
+              ghLink="https://github.com/SuperDev314"
+              demoLink="https://hype.games/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={jennywulac}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Shop 3D Printed Fine Jewelry"
+              description="I made this Jewel Site even more enchanting and user-friendly with Core.js and Shopify.
+                Explore our diverse collection of rings, earrings, necklaces, diamond rings and more in a variety of 3D printed materials.
+                As you can see, I made this website reflect the brand's style with soft pastel colors and elegant typography."
+              ghLink="https://github.com/SuperDev314"
+              demoLink="https://jennywulace.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={arcteryx}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Outdoor Clothing"
+              description="I have designed this website using MERN Stack & Next.js & PHP to showcase Arcteryx's products and to provide customers with an easy-to-use online shopping experience.
+                I've also put a lot of effort into optimization so that customers can easily discover and purchase products online without delays that meet their needs."
+              ghLink="https://github.com/SuperDev314"
+              demoLink="https://arcteryx.com/fi/en/"
             />
           </Col>
         </Row>
